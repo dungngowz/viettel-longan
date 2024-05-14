@@ -297,6 +297,10 @@ hr {
   overflow-y: scroll;
 }
 
+.hidden {
+  display: none !important;
+}
+
 /* responseive  */
 @media (max-width: 576px) {
   .tivi_360-container::after {

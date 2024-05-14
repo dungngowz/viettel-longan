@@ -289,8 +289,8 @@ function loadMoreInternet() {
     renderInternet();
 
     // Check if there are more items to load
-    if (currentIndex >= internets.length) {
-      loadMoreBtn.disabled = true; // Disable the button when there are no more items
+    if (currentIndex >= 17) {
+      loadMoreBtn.classList.add("hidden");
     }
   });
 }

@@ -1,7 +1,7 @@
 const cameras = [
   {
     id: 1,
-    name: "CAMERA NGOÀI TRỜI (HC3)",
+    name: "Camera ngoài trời HC33 (MỚI)",
     speend: "Miễn phí giao hàng nội thành Hà Nội và TP.HCM",
     price: "",
     discountPrice: "990.000 đ",
@@ -160,7 +160,7 @@ function openCameraDetails(index) {
   var swiperThumbs = new Swiper(".camera-swiper-thumbs", {
     loop: true,
     spaceBetween: 10,
-    slidesPerView: 5,
+    slidesPerView: 6,
     freeMode: true,
     watchSlidesProgress: true,
   });

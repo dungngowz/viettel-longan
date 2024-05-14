@@ -1421,8 +1421,8 @@ function loadMoreTivi360Compo() {
     renderTivi360Compo();
 
     // Check if there are more items to load
-    if (currentIndexCompo >= internets.length) {
-      loadMoreBtn.disabled = true; // Disable the button when there are no more items
+    if (currentIndexCompo >= compo.length - 1) {
+      loadMoreBtn.classList.add("hidden");
     }
   });
 }

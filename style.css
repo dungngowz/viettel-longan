@@ -70,7 +70,12 @@ body {
 }
 
 .internet-item:hover img {
+  transition: all 0.6s;
   transform: scale(1.1); /* Scale the image by 10% when hovered */
+}
+
+.internet-item img {
+  transition: all 0.6s;
 }
 
 .internet-text-image {
@@ -239,6 +244,59 @@ hr {
   font-size: 12px !important;
 }
 
+/* camera  */
+/* main slide  */
+.camera-swiper {
+  height: 80vh;
+}
+
+.camera-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-swiper .swiper-slide img {
+  height: 80% !important;
+  width: 80% !important;
+  object-fit: contain;
+}
+
+.camera-swiper-thumbs {
+  /* border: 1px solid #ebebeb; */
+}
+
+.camera-swiper-thumbs .swiper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px !important;
+}
+
+.camera-swiper-thumbs .swiper-slide img {
+  height: 80% !important;
+  width: 80% !important;
+  object-fit: contain;
+}
+
+.camera-swiper-thumbs .swiper-slide {
+  cursor: pointer !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px !important;
+  width: 60px !important;
+  margin-right: 0px !important;
+}
+
+.camera-swiper-thumbs .swiper-slide-thumb-active {
+  border: 1px solid #db002f !important;
+}
+
+.image-camera-table {
+  overflow-y: scroll;
+}
+
 /* responseive  */
 @media (max-width: 576px) {
   .tivi_360-container::after {
@@ -256,13 +314,19 @@ hr {
   }
 
   .swiper-button-next {
-    display: none !important;
+    /* display: none !important; */
   }
   .swiper-button-prev {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .container-title {
     padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .camera-swiper {
+    height: 400px !important;
   }
 }

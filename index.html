@@ -180,6 +180,15 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                                <a href="https://zalo.me/0965350404" target="_blank">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đăng
+                                        ký</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -229,7 +238,7 @@
                     </a>
                 </div>
 
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-12 col-md-3">
                     <div class="ms-0 ms-md-5 pt-4 pt-md-0">
                         <ul class="navbar-nav flex-column">
                             <li class="nav-item" style="margin-top: -12px;">
@@ -253,7 +262,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4 col-lg-3">
+                <div class="col-12 col-md-3">
                     <div class="ms-0 ms-md-5 pt-4 pt-md-0">
                         <div class="fs-5 fw-bold pb-1">TƯ VẤN LẮP ĐẶT</div>
 
@@ -273,7 +282,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4 col-lg-3">
+                <div class="col-12 col-md-3">
                     <div class="ms-0 ms-md-5 pt-4 pt-md-0">
                         <div class="fs-5 fw-bold pb-1">BÁO HỎNG</div>
                         <div class="d-flex">
@@ -323,6 +332,8 @@
 
                 <div id="register-internet-modal" class="modal-body">
                 </div>
+
+
             </div>
         </div>
     </div>
@@ -404,12 +415,46 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                    <a href="https://zalo.me/0965350404" target="_blank">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đăng ký</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Camera modal detail  -->
-    <div id="cameraModalDetail"></div>
+    <div class="modal fade" id="cameraDetailModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-6" id="internetModalLabel">Chi tiết gói cước</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body row">
+                    <div id="camera-swiper-slider" class="col-lg-6 col-12"></div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="fw-bold fs-5 mt-4 mt-lg-0 pb-0">Đặc điểm nổi bật</div>
+                        <div id="camera-swiper-detail"></div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                    <a href="https://zalo.me/0965350404" target="_blank">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Mua ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
@@ -432,11 +477,4 @@
             prevEl: ".swiper-button-prev",
         },
     });
-
-    fetch('/dialog/camera_detail.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('cameraModalDetail').innerHTML = html;
-        })
-        .catch(error => console.error('Error fetching content:', error));
 </script>

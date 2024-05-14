@@ -1,0 +1,268 @@
+:root {
+  --primary: #ee0033;
+}
+
+body {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.navbar {
+  border-bottom: 1px solid #eeeeee;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+
+.nav-actived {
+  color: #ee0033;
+  font-weight: 600;
+}
+
+.nav-actived:hover {
+  color: #ee0033;
+}
+
+.main-section {
+  /* min-height: 100vh; */
+}
+
+.container-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* internet-item */
+.internet-item {
+  border: 1px solid #f3f3f3;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffff;
+  cursor: pointer;
+  transition: all 0.6s;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.internet-item-desc {
+  font-size: 14px;
+}
+
+.internet-item:hover {
+  box-shadow: rgba(43, 43, 43, 0.15) 0px 48px 100px 0px;
+  border-color: #ee0033;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.disable-hover:hover {
+  border-color: #f3f3f3;
+  box-shadow: none !important;
+  cursor: default;
+}
+
+.internet-item:hover img {
+  transform: scale(1.1); /* Scale the image by 10% when hovered */
+}
+
+.internet-text-image {
+  position: relative;
+  width: 100%;
+}
+
+.thumb-internet {
+  position: absolute;
+  left: 10px;
+  top: 24%;
+  z-index: 3;
+}
+
+.internet-text-image span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+
+.internet-text-image img {
+  width: 110%;
+  height: 60px;
+  object-fit: cover;
+  background-position: center;
+  margin-left: -1px !important;
+  transition: all 0.6s;
+}
+
+/* BUTTON  */
+.btn {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #ee0033;
+  border: 0px !important;
+}
+
+.btn-primary:hover {
+  background-color: #db002f;
+}
+
+.w-full {
+  width: 100%;
+}
+
+hr {
+  border-color: #d5d5d5;
+}
+
+.tivi_360-container {
+  position: relative;
+  z-index: 1;
+}
+
+.tivi_360-container::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 4%, 100% 0%, 100% 98%, 0% 100%);
+  z-index: 2;
+}
+
+.tivi30-wrappper {
+  position: relative;
+  z-index: 3; /* Ensure the child element is above the ::after pseudo-element */
+}
+
+.tivi30-wrappper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.btn-outline-primary {
+  border-color: #ee0033 !important;
+  color: #ee0033 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ee0033;
+  color: #fff !important;
+}
+
+.modal-header {
+  padding: 8px 16px !important;
+}
+
+.modal-content {
+  border: 0px !important;
+}
+
+/* Banner slide  */
+.banner-swiper {
+  height: 50vh !important;
+}
+
+.banner-swiper img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.swiper-button-prev {
+  height: 54px !important;
+  background-color: #1111116b !important;
+  backdrop-filter: blur(2px);
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  left: -6px !important;
+  padding: 16px !important;
+}
+
+.swiper-button-prev::after {
+  font-size: 18px !important;
+  color: #fff;
+}
+
+.swiper-button-next {
+  height: 54px !important;
+  background-color: #1111116b !important;
+  backdrop-filter: blur(2px);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  right: -6px !important;
+  padding: 16px !important;
+}
+
+.swiper-button-next::after {
+  font-size: 18px !important;
+  color: #fff;
+}
+
+/* End swiper  */
+
+.register-internet-box-price {
+  border: 1px solid #d5d5d553 !important;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 16px;
+  background: #fafafa;
+}
+
+.tv-item-desc ul {
+  margin-top: -2px !important;
+  margin-bottom: 0px !important;
+  padding-right: 16px !important;
+}
+
+.tv-item-desc ul li {
+  font-size: 14px !important;
+}
+
+.fs-7 {
+  font-size: 12px !important;
+}
+
+/* responseive  */
+@media (max-width: 576px) {
+  .tivi_360-container::after {
+    clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+  }
+
+  .tivi30-wrappper {
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .banner-swiper {
+    height: 170px !important;
+  }
+
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  .container-title {
+    padding-bottom: 0px !important;
+  }
+}

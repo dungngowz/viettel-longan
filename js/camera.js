@@ -145,7 +145,7 @@ function openCameraDetails(index) {
   contentDetail.innerHTML = `
   <div>
   
-  <div class="fs-4 fw-bold">${camera.name}</div>
+  <div class="fs-4 fw-bold mt-3 mt-md-0">${camera.name}</div>
   <div>
   <span>Giá:</span>
   <span class="fs-6 fw-bold text-danger">${camera.discountPrice} </span>

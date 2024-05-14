@@ -50,6 +50,47 @@ const cameras = [
   },
 ];
 
+const camerasCombo = [
+  {
+    id: "VnRGdHRo165ea78a583f14",
+    name: "CAMERA CLOUD 15",
+    status: "1",
+    bandwidth: "15 ng\u00e0y",
+    subFee: "60000",
+    slug: "cameracloud15",
+    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
+    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    descDevice: "",
+    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    packageCode: "CAMERA CLOUD 15",
+  },
+  {
+    id: "VnRGdHRo165ea8073249f0",
+    name: "CAMERA CLOUD 30",
+    status: "1",
+    bandwidth: "30 ng\u00e0y",
+    subFee: "90000",
+    slug: "cameracloud30",
+    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
+    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    descDevice: "",
+    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    packageCode: "CAMERA CLOUD 30",
+  },
+  {
+    id: "VnRGdHRo165ded6017be6b",
+    name: "CAMERA CLOUD 7",
+    status: "1",
+    bandwidth: "7 ng\u00e0y",
+    subFee: "40000",
+    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
+    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    descDevice: "",
+    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
+    packageCode: "CAMERA CLOUD 7",
+  },
+];
+
 function renderCamera() {
   const cameraItems = document.getElementById("camera-items");
   let initialDelay = 300; // Initial delay set to 300ms
@@ -100,6 +141,83 @@ function renderCamera() {
                     </div>
                 </div>
     `;
+
+    cameraItems.appendChild(cameraItem);
+  });
+}
+
+function renderCameraCombo() {
+  const cameraItems = document.getElementById("camera-items-combo");
+  let initialDelay = 300; // Initial delay set to 300ms
+
+  camerasCombo.forEach((item, index) => {
+    const delay = initialDelay + index * 100; // delay 50ms
+
+    const price = parseInt(item.subFee);
+
+    const cameraItem = document.createElement("div");
+    cameraItem.classList.add(
+      "col-12",
+      "col-md-6",
+      "col-lg-6",
+      "col-xl-4",
+      "pt-3",
+      "pt-md-4"
+    );
+
+    cameraItem.innerHTML = `
+    <div class="internet-item wow fadeInUp" 
+        data-wow-delay="${delay}ms"
+             onclick="openModalTvii('${item.id}')" 
+    >
+    <div>
+    <div class="internet-text-image">
+    <div class="thumb-internet">
+    <img src="/img/Wireless.png" style="height: 32px; width: 32px; object-fit: contain;" alt="">
+    </div>
+        <img src="/img/img-supernet.svg" width="100%" alt="">
+        <span>${item.name}</span>
+      </div>
+      
+      <div>
+        <div class="px-3 pt-3">
+        <div class="fs-6">${item.bandwidth}</div>
+            <div class="d-flex flex-column">
+            <div class="fs-3 fw-bold text-danger">${price.toLocaleString()}VNĐ/ Tháng </div>
+                </div>
+
+                <div class="text-body-tertiary fst-italic fs-7">Miễn phí cước data 4G Viettel khi xem trên di động</div>
+                </div>
+                
+                <hr />
+                <div class="tv-item-desc">
+                ${item.desc}
+                </div>
+
+                 <div class="px-3 pt-2  d-fex">
+        <span class="fw-bold">
+        Liên hệ:
+        </span>
+
+         <a onclick="handleClick()" href="https://zalo.me/0965350404" target="_blank" style="text-decoration: none;"
+                                    class="text-primary fw-bold">096.535.0404(Mr Được)</a>
+
+                                    </div>
+                </div>
+                </div>
+
+                <div>
+                <hr/>
+                
+                <div class="d-flex flex-column flex-lg-row mb-3 px-3 gap-3">
+                <button type="button" class="btn btn-outline-secondary w-full">Chi tiết gói cước</button>
+                
+                <button onclick="openModalInternetRegister('${
+                  item.id
+                }')" type="button" class="btn btn-primary w-full">Đăng ký</button>
+                </div>
+    </div>
+    </div>`;
 
     cameraItems.appendChild(cameraItem);
   });
@@ -178,4 +296,5 @@ function openCameraDetails(index) {
   });
 }
 
+document.addEventListener("DOMContentLoaded", renderCameraCombo);
 document.addEventListener("DOMContentLoaded", renderCamera);

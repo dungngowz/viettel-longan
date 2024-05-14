@@ -24,48 +24,7 @@ const list = [
     descUsed: "\u00c1p d\u1ee5ng t\u1ea1i to\u00e0n qu\u1ed1c",
     orderNumber: null,
   },
-  {
-    id: "VnRGdHRo165ded6017be6b",
-    name: "CAMERA CLOUD 7",
-    status: "1",
-    bandwidth: "7 ng\u00e0y",
-    subFee: "40000",
-    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
-    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    descDevice: "",
-    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    packageCode: "CAMERA CLOUD 7",
-  },
-  {
-    id: "VnRGdHRo1661e35aad7cf3",
-    name: "VKP",
-    status: "1",
-    bandwidth: "+200 k\u00eanh truyền hình",
-    subFee: "189000",
-    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng t\u1ea1i khu v\u1ef1c 61 t\u1ec9nh &amp; Ngo\u1ea1i th&agrave;nh H&agrave; N\u1ed9i, TP.HCM.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Kh&aacute;ch h&agrave;ng c\u1ea7n c&oacute; SmartTV h\u1ed7 tr\u1ee3 c&agrave;i \u0111\u1eb7t \u1ee9ng d\u1ee5ng TV360.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">H\u01a1n 68 k&ecirc;nh truy\u1ec1n&nbsp;h&igrave;nh, bao g\u1ed3m c&aacute;c k&ecirc;nh trong n\u01b0\u1edbc tr\u1eeb c&aacute;c k&ecirc;nh SCTV, K+ (\u0111&atilde; bao g\u1ed3m k&ecirc;nh VTVcab, HTV, VTC) v&agrave; qu\u1ed1c t\u1ebf.</span></span></li>\r\n</ul>',
-    descAdd:
-      "\u00c1p d\u1ee5ng t\u1ea1i 61 t\u1ec9nh & Ngo\u1ea1i th\u00e0nh H\u00e0 N\u1ed9i, TP.HCM",
-    descDevice:
-      "Kh\u00e1ch h\u00e0ng c\u1ea7n c\u00f3 SmartTV h\u1ed7 tr\u1ee3 c\u00e0i \u0111\u1eb7t \u1ee9ng d\u1ee5ng TV360.",
-    descUsed:
-      "\u00c1p d\u1ee5ng t\u1ea1i 61 t\u1ec9nh & Ngo\u1ea1i th\u00e0nh H\u00e0 N\u1ed9i, TP.HCM",
-    packageCode: "VKP",
-  },
-  {
-    id: "VnRGdHRo1661e3beaee07a",
-    name: "VKP",
-    status: "1",
-    bandwidth: "+200 k\u00eanh truyền hình",
-    subFee: "179000",
-    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng t\u1ea1i khu v\u1ef1c N\u1ed9i th&agrave;nh H&agrave; N\u1ed9i, TP.HCM.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Kh&aacute;ch h&agrave;ng c\u1ea7n c&oacute; SmartTV h\u1ed7 tr\u1ee3 c&agrave;i \u0111\u1eb7t \u1ee9ng d\u1ee5ng TV360.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">H\u01a1n 200 k&ecirc;nh truy\u1ec1n&nbsp;h&igrave;nh, bao g\u1ed3m c&aacute;c k&ecirc;nh trong n\u01b0\u1edbc tr\u1eeb c&aacute;c k&ecirc;nh SCTV, K+ (\u0111&atilde; bao g\u1ed3m k&ecirc;nh VTVcab, HTV, VTC) v&agrave; qu\u1ed1c t\u1ebf.</span></span></li>\r\n</ul>',
-    descAdd:
-      "\u00c1p d\u1ee5ng t\u1ea1i N\u1ed9i th\u00e0nh H\u00e0 N\u1ed9i, TP.HCM",
-    descDevice:
-      "Kh\u00e1ch h\u00e0ng c\u1ea7n c\u00f3 SmartTV h\u1ed7 tr\u1ee3 c\u00e0i \u0111\u1eb7t \u1ee9ng d\u1ee5ng TV360.",
-    descUsed:
-      "\u00c1p d\u1ee5ng t\u1ea1i N\u1ed9i th\u00e0nh H\u00e0 N\u1ed9i, TP.HCM",
-    packageCode: "VKP",
-  },
+
   {
     id: "VnRGdHRo1661e49d00b13b",
     name: "VKPBOX",
@@ -95,32 +54,6 @@ const list = [
     descUsed:
       "\u00c1p d\u1ee5ng t\u1ea1i N\u1ed9i th\u00e0nh H\u00e0 N\u1ed9i, TP.HCM",
     packageCode: "VKPBOX",
-  },
-  {
-    id: "VnRGdHRo165ea78a583f14",
-    name: "CAMERA CLOUD 15",
-    status: "1",
-    bandwidth: "15 ng\u00e0y",
-    subFee: "60000",
-    slug: "cameracloud15",
-    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
-    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    descDevice: "",
-    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    packageCode: "CAMERA CLOUD 15",
-  },
-  {
-    id: "VnRGdHRo165ea8073249f0",
-    name: "CAMERA CLOUD 30",
-    status: "1",
-    bandwidth: "30 ng\u00e0y",
-    subFee: "90000",
-    slug: "cameracloud30",
-    desc: '<ul>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">&Aacute;p d\u1ee5ng tr&ecirc;n To&agrave;n qu\u1ed1c.</span></span></li>\r\n\t<li>\r\n\t\t<span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif;">Camera an ninh c\u1ee7a Viettel s\u1eed d\u1ee5ng c&ocirc;ng ngh\u1ec7 l\u01b0u tr\u1eef d\u1eef li\u1ec7u tr&ecirc;n Cloud v\u1edbi t&iacute;nh an to&agrave;n v&agrave; b\u1ea3o m\u1eadt cao, d\u1eef li\u1ec7u c\u1ee7a kh&aacute;ch h&agrave;ng \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1i h\u1ec7 th\u1ed1ng server c\u1ee7a Viettel \u0111\u1eb7t t\u1ea1i Vi\u1ec7t Nam; gi&uacute;p tr&aacute;nh \u0111\u01b0\u1ee3c c&aacute;c phi\u1ec1n to&aacute;i v&agrave; nguy c\u01a1 r\u1ee7i ro m\u1ea5t d\u1eef li\u1ec7u (m\u1ea5t th\u1ebb nh\u1edb, h\u1ecfng th\u1ebb nh\u1edb, m\u1ea5t camera, ch&aacute;y n\u1ed5 &hellip;)</span></span></li>\r\n</ul>',
-    descAdd: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    descDevice: "",
-    descUsed: "\u00c1p d\u1ee5ng To\u00e0n qu\u1ed1c",
-    packageCode: "CAMERA CLOUD 30",
   },
 ];
 
@@ -1428,7 +1361,7 @@ function loadMoreTivi360Compo() {
 }
 
 function openModalTvii(id) {
-  const item = [...list, ...compo].find((i) => i.id === id);
+  const item = [...camerasCombo, ...list, ...compo].find((i) => i.id === id);
 
   $("#tiviModal").modal("show");
 

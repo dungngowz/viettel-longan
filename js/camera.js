@@ -75,9 +75,18 @@ function renderCamera() {
                         </div>
 
                        <div>${item.desc}</div>
+<div class="d-fex">
+        <span class="fw-bold">
+        Liên hệ:
+        </span>
 
+         <a onclick="handleClick()" href="https://zalo.me/0965350404" target="_blank" style="text-decoration: none;"
+                                    class="text-primary fw-bold">096.535.0404(Mr Được)</a>
+
+                                    </div>
                         <hr />
 
+                         
                         <div class="d-flex flex-row align-items-end">
                             <div class="fs-3 fw-bold text-danger">${item.discountPrice}</div>
                             <div class="text-decoration-line-through mb-1 ms-2 text-body-tertiary fst-italic">${item.price}
@@ -134,7 +143,17 @@ function openCameraDetails(index) {
   `;
 
   contentDetail.innerHTML = `
-  <div>${camera.descDetails}</div>
+  <div>
+  
+  <div class="fs-4 fw-bold">${camera.name}</div>
+  <div>
+  <span>Giá:</span>
+  <span class="fs-6 fw-bold text-danger">${camera.discountPrice} </span>
+  </div>
+
+                        <div class="fw-bold fs-5 mt-3 pb-0">Đặc điểm nổi bật</div>
+
+  ${camera.descDetails}</div>
   `;
 
   // Initialize Swiper instances

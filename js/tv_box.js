@@ -1302,6 +1302,16 @@ function renderTivi360() {
                 <div class="tv-item-desc">
                 ${item.desc}
                 </div>
+
+                 <div class="px-3 pt-2  d-fex">
+        <span class="fw-bold">
+        Liên hệ:
+        </span>
+
+         <a onclick="handleClick()" href="https://zalo.me/0965350404" target="_blank" style="text-decoration: none;"
+                                    class="text-primary fw-bold">096.535.0404(Mr Được)</a>
+
+                                    </div>
                 </div>
                 </div>
 
@@ -1372,9 +1382,20 @@ function renderTivi360Compo() {
                 <div class="tv-item-desc">
                 ${item.desc}
                 </div>
-                </div>
+                 <div class="px-3 pt-2  d-fex">
+        <span class="fw-bold">
+        Liên hệ:
+        </span>
+
+         <a onclick="handleClick()" href="https://zalo.me/0965350404" target="_blank" style="text-decoration: none;"
+                                    class="text-primary fw-bold">096.535.0404(Mr Được)</a>
+
+                                    </div>
                 </div>
 
+                </div>
+
+                
                 <div>
                 <hr/>
                 
